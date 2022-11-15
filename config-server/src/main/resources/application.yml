@@ -9,5 +9,5 @@ spring:
           uri: https://github.com/AgushPy/bases-microservicios
           search-paths: config-data
   application:
-    name: config-service
+    name: config-server
 
