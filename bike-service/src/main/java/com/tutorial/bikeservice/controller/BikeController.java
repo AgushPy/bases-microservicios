@@ -35,7 +35,7 @@ public class BikeController {
     }
 
     //Se debe crear un DTO
-    @PostMapping()
+    @PostMapping("/save")
     public ResponseEntity<Bike> save(@RequestBody Bike bike){
         Bike bikeNew =  bikeService.save(bike);
         return ResponseEntity.ok(bikeNew);
