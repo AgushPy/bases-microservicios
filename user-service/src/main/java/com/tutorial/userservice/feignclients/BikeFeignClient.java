@@ -4,6 +4,8 @@ import com.tutorial.userservice.model.Bike;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 
 @FeignClient(name = "bike-service",url = "http://localhost:8003/bike")
 //@RequestMapping("/car")
